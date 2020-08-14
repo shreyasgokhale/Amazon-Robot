@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>amazon_robot</name>
+  <version>0.1.0</version>
+  <description>
+    Custom Amazon Robot ROS2 Packages for Navigation, Gazebo and Applications
+  </description>
+  <maintainer email="shreyas6gokhale@gmail.com">Shreyas Gokhale</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- nav2_bringup doesn't belong for recursive dependencies -->
+  <exec_depend>amazon_robot_bringup</exec_depend>
+  <exec_depend>amazon_robot_controller</exec_depend>
+  <exec_depend>amazon_robot_description</exec_depend>
+  <exec_depend>amazon_robot_gazebo</exec_depend>
+  <exec_depend>amazon_robot_msg</exec_depend>
+  <exec_depend>amazon_robot_rviz_plugins</exec_depend>
+  <exec_depend>navigation2</exec_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
