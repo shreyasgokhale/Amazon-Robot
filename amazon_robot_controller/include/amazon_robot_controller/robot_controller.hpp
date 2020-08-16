@@ -38,7 +38,7 @@
 namespace amazon_robot_controller
 {
 /**
- * @class nav2_bt_navigator::RobotController
+ * @class amazon_robot_controller::RobotController
  * @brief An action server that uses behavior tree for navigating a robot to its
  * goal position.
  */
